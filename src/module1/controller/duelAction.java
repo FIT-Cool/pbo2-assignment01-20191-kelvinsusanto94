@@ -6,8 +6,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-
 import java.util.Random;
+
+/**
+ * @author Kelvin Susanto (1772039)
+ */
 
 public class duelAction {
     public Button buttonPaper;

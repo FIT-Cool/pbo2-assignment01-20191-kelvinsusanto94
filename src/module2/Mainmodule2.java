@@ -10,8 +10,8 @@ public class Mainmodule2 extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/module1/view/view.fxml"));
-        primaryStage.setTitle("Paper Rock Scissors Game");
+        Parent root = FXMLLoader.load(getClass().getResource("/module2/view/view.fxml"));
+        primaryStage.setTitle("Shape Counter");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
